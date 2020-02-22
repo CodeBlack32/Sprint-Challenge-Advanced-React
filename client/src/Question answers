@@ -1,0 +1,20 @@
+Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
+
+- [ ] Why would you use class component over function components (removing hooks from the question)?
+
+A difference is the ability to create custom hooks, you can use state easier and differently due to this.state. Also the use of event handling can be used in multiple ways.
+after using class components you have to render something, this gives you a chance to console log for debugging, and determining State at that point.
+
+- [ ] Name three lifecycle methods and their purposes.
+
+componentDidMount- Runs as a method to give some task once whateverver component is mounted or actioned... such as an API working.
+componentWillReceiveProps- a mthos tat runs when a component runs props
+getSnapShotBeforeUpdate- before updating state, this method creates a backup of the way things are Currently.
+
+- [ ] What is the purpose of a custom hook?
+
+The purpose of custome hooks are to allow us to extract component logic into reusable functions. Helps with sharing stateful logic with adding excessive components.
+
+- [ ] Why is it important to test our apps?
+
+The inportance of testing our apps is to ensure they are functioning properly and doing what they are expected to do (Quality Check).
