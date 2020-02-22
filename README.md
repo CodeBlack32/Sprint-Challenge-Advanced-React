@@ -44,7 +44,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
@@ -61,3 +61,5 @@ Your finished project must include all of the following requirements:
 
 - [ ] Implement another custom hook
 - [ ] Use a graphing library to graph the data you received from the API
+
+<!-- Initial -->
