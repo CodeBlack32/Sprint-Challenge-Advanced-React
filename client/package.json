@@ -34,7 +34,7 @@
   "devDependencies": {
     "expect": "^25.1.0",
     "extend": "^3.0.2",
-    "jest": "^25.1.0",
+    "jest": "24.9.0",
     "testing-library": "^0.0.2"
   }
 }

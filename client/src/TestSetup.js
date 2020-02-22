@@ -8,8 +8,9 @@ describe("App", () => {
     const simulatedDOM = render(<App />);
     const p = simulatedDOM.queryByText(/error/i);
     const h1 = simulatedDOM.queryByText(/Cup/i);
+    const div = simulatedDOM.findAllByRole(class);
+    // console.log(simulatedDOM.debug());
     expect(p).toBeInTheDocument();
     expect(h1).toBeInTheDocument();
-    console.log(simulatedDOM.debug());
   });
 });
