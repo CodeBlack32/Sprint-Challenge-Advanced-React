@@ -31,3 +31,41 @@
     transform: rotate(360deg);
   }
 }
+
+li {
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+h3 {
+  color: blue;
+}
+
+.card {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.hook-form {
+  width: 80%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: rgb(24, 226, 226);
+}
+
+legend {
+  font-size: xx-large;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
