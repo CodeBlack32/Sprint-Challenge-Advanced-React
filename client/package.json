@@ -30,5 +30,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "expect": "^25.1.0",
+    "extend": "^3.0.2",
+    "jest": "^25.1.0",
+    "testing-library": "^0.0.2"
   }
 }

@@ -26,26 +26,24 @@ export const HookForm = (key, initialValues) => {
       {values.name}
 
       <form onSubmit={handleSubmit}>
-        <fieldset>
-          <legend>New Data</legend>
-          <input
-            label="A Name"
-            value={values.name}
-            onChange={handleChanges}
-            margin="normal"
-            variant="outlined"
-            name="name"
-          />
+        <legend>New Data</legend>
+        <input
+          label="A Name"
+          value={values.name}
+          onChange={handleChanges}
+          margin="normal"
+          variant="outlined"
+          name="name"
+        />
 
-          <div className="btn">
-            <button value="clear" color="red" onClick={eraseForm}>
-              Erase
-            </button>
-            <button color="blue" type="submit">
-              Add
-            </button>
-          </div>
-        </fieldset>
+        <div className="btn">
+          <button value="clear" color="red" onClick={eraseForm}>
+            Erase
+          </button>
+          <button color="blue" type="submit">
+            Add
+          </button>
+        </div>
       </form>
     </div>
   );
